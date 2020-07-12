@@ -8,7 +8,6 @@ import SideMenu from './sideMenu';
 import BlankScreen87865Navigator from '../features/BlankScreen87865/navigator';
 import BlankScreen97864Navigator from '../features/BlankScreen97864/navigator';
 import MessengerNavigator from '../features/Messenger/navigator';
-import CalendarNavigator from '../features/Calendar/navigator';
 import EmailAuthNavigator from '../features/EmailAuth/navigator';
 
 /**
@@ -23,7 +22,6 @@ const AppNavigator = {
 BlankScreen87865: { screen: BlankScreen87865Navigator },
 BlankScreen97864: { screen: BlankScreen97864Navigator },
 Messenger: { screen: MessengerNavigator },
-Calendar: { screen: CalendarNavigator },
 EmailAuth: { screen: EmailAuthNavigator },
 
     /** new navigators can be added here */
